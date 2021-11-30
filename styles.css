@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: Roboto;
+}
+
+.container {
+  max-width: 500px;
+  borderww: 1px solid #ccc;
+  margin: auto;
+  height: 100vh;
+  box-shadow: 6px 9px 15px -8px rgba(0, 0, 0, 0.75);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.title {
+  color: #7aace4;
+}
+.btn-reset {
+  background: #684d07;
+  color: yellow;
+  border: none;
+  padding: 5px;
+  border-radius: 10px;
+  font-size: 2rem;
+}
